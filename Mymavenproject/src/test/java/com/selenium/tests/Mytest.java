@@ -17,6 +17,7 @@ public class Mytest {
 		WebDriver dr = new FirefoxDriver();
 		dr.get("https://www.facebook.com");
 		System.out.println(dr.getTitle());
+		System.out.println("Test Case passed Successfully !!!")
 	}
 	
 }
