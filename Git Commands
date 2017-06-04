@@ -1,0 +1,15 @@
+git add --"To add new File locally"
+git commit -- "To commit on git staging area"
+git push --"To push the changes on github i.e Remote repo"
+git pull --"To get latest changes "
+git log --"To see latest commit logs"
+git status --"To status of my current repor i.e how many files are ready to checked in or iin commited state or need to add"
+git diff "filename" --"To see the diff between last commit and current commit of specified file"
+git reset --hard "revision no" --To revert to specified revision
+git clone --"to clone new repo on your local"
+git show--"To show the changes in specified commit id"
+
+
+
+To remove extra white spaces 
+ctrl+shift+O
