@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Parallel Suite"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.013">
+  <properties />
+  
+  
+            <testcase name="method1" time="0.006" classname="com.suites.parallel.Parallel" />
+                <testcase name="method2" time="0.007" classname="com.suites.parallel.Parallel" />
+      
+</testsuite>

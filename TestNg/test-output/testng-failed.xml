@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ERP Application]">
+  <test name="Regression suite(failed)">
+    <classes>
+      <class name="com.suites.regression.Testngannotations">
+        <methods>
+          <include name="listuser"/>
+          <include name="adduser"/>
+          <include name="cleanup"/>
+          <include name="Logintoapplication"/>
+          <include name="setup"/>
+          <include name="logout"/>
+          <include name="Launchapplication"/>
+          <include name="closeapplication"/>
+        </methods>
+      </class> <!-- com.suites.regression.Testngannotations -->
+    </classes>
+  </test> <!-- Regression suite(failed) -->
+</suite> <!-- Failed suite [ERP Application] -->

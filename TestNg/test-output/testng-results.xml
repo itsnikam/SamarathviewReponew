@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="3" failed="1" ignored="0" total="9" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="ERP Application" duration-ms="254" started-at="2017-05-12T16:13:02Z" finished-at="2017-05-12T16:13:03Z">
+    <groups>
+    </groups>
+    <test name="Regression suite" duration-ms="107" started-at="2017-05-12T16:13:02Z" finished-at="2017-05-12T16:13:02Z">
+      <class name="com.suites.regression.Testingannotations1">
+        <test-method status="PASS" signature="getReports()[pri:0, instance:com.suites.regression.Testingannotations1@1e88b3c]" name="getReports" duration-ms="33" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getReports -->
+      </class> <!-- com.suites.regression.Testingannotations1 -->
+      <class name="com.suites.regression.Testngannotations">
+        <test-method status="PASS" signature="Launchapplication()[pri:0, instance:com.suites.regression.Testngannotations@a3ffec]" name="Launchapplication" is-config="true" duration-ms="1" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Launchapplication -->
+        <test-method status="FAIL" signature="Logintoapplication()[pri:1, instance:com.suites.regression.Testngannotations@a3ffec]" name="Logintoapplication" duration-ms="6" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertTrue(Assert.java:41)
+	at org.testng.Assert.assertTrue(Assert.java:51)
+	at com.suites.regression.Testngannotations.Logintoapplication(Testngannotations.java:49)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logintoapplication -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.suites.regression.Testngannotations@a3ffec]" name="setup" is-config="true" duration-ms="0" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="cleanup()[pri:0, instance:com.suites.regression.Testngannotations@a3ffec]" name="cleanup" is-config="true" duration-ms="1" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanup -->
+        <test-method status="SKIP" signature="adduser()[pri:2, instance:com.suites.regression.Testngannotations@a3ffec]" name="adduser" duration-ms="0" started-at="2017-05-12T21:43:02Z" depends-on-methods="com.suites.regression.Testngannotations.Logintoapplication" finished-at="2017-05-12T21:43:02Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Testngannotations.adduser()[pri:2, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Testngannotations.adduser()[pri:2, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- adduser -->
+        <test-method status="SKIP" signature="listuser()[pri:3, instance:com.suites.regression.Testngannotations@a3ffec]" name="listuser" duration-ms="0" started-at="2017-05-12T21:43:02Z" depends-on-methods="com.suites.regression.Testngannotations.Logintoapplication" finished-at="2017-05-12T21:43:02Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Testngannotations.listuser()[pri:3, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Testngannotations.listuser()[pri:3, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- listuser -->
+        <test-method status="SKIP" signature="logout()[pri:4, instance:com.suites.regression.Testngannotations@a3ffec]" name="logout" duration-ms="0" started-at="2017-05-12T21:43:02Z" depends-on-methods="com.suites.regression.Testngannotations.Logintoapplication" finished-at="2017-05-12T21:43:02Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method Testngannotations.logout()[pri:4, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method Testngannotations.logout()[pri:4, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1084)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method status="PASS" signature="closeapplication()[pri:0, instance:com.suites.regression.Testngannotations@a3ffec]" name="closeapplication" is-config="true" duration-ms="1" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeapplication -->
+      </class> <!-- com.suites.regression.Testngannotations -->
+    </test> <!-- Regression suite -->
+    <test name="Sanity Suite" duration-ms="12" started-at="2017-05-12T16:13:02Z" finished-at="2017-05-12T16:13:02Z">
+      <class name="com.suites.sanity.Sanity1">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.suites.sanity.Sanity1@1deb50e]" name="test1" duration-ms="2" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- com.suites.sanity.Sanity1 -->
+      <class name="com.suites.sanity.Sanity2">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.suites.sanity.Sanity2@19963d8]" name="test2" duration-ms="2" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.suites.sanity.Sanity2 -->
+    </test> <!-- Sanity Suite -->
+    <test name="Parallel Suite" duration-ms="27" started-at="2017-05-12T16:13:02Z" finished-at="2017-05-12T16:13:03Z">
+      <class name="com.suites.parallel.Parallel">
+        <test-method status="PASS" signature="method1()[pri:0, instance:com.suites.parallel.Parallel@17d0008]" name="method1" duration-ms="3" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:com.suites.parallel.Parallel@17d0008]" name="method2" duration-ms="12" started-at="2017-05-12T21:43:02Z" finished-at="2017-05-12T21:43:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+      </class> <!-- com.suites.parallel.Parallel -->
+    </test> <!-- Parallel Suite -->
+  </suite> <!-- ERP Application -->
+</testng-results>

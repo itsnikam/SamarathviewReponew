@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-ERP_Application">
+              <span class="suite-name border-failed">ERP Application</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-ERP_Application">
+                    <span>C:\Users\Sony\workspace\TestNg\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-ERP_Application">
+                    <span class="test-stats">3 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-ERP_Application">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-ERP_Application">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-ERP_Application">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-ERP_Application">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-ERP_Application">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">9 methods, 1 failed,  3 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-ERP_Application" class="hide-methods failed suite-ERP_Application"> (hide)</a> <!-- hide-methods failed suite-ERP_Application -->
+                      <a href="#" panel-name="suite-ERP_Application" class="show-methods failed suite-ERP_Application"> (show)</a> <!-- show-methods failed suite-ERP_Application -->
+                    </span>
+                    <div class="method-list-content failed suite-ERP_Application">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.regression.Testngannotations" hash-for-method="Logintoapplication">Logintoapplication</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-ERP_Application -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-ERP_Application" class="hide-methods skipped suite-ERP_Application"> (hide)</a> <!-- hide-methods skipped suite-ERP_Application -->
+                      <a href="#" panel-name="suite-ERP_Application" class="show-methods skipped suite-ERP_Application"> (show)</a> <!-- show-methods skipped suite-ERP_Application -->
+                    </span>
+                    <div class="method-list-content skipped suite-ERP_Application">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.regression.Testngannotations" hash-for-method="adduser">adduser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.regression.Testngannotations" hash-for-method="listuser">listuser</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.regression.Testngannotations" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-ERP_Application -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-ERP_Application" class="hide-methods passed suite-ERP_Application"> (hide)</a> <!-- hide-methods passed suite-ERP_Application -->
+                      <a href="#" panel-name="suite-ERP_Application" class="show-methods passed suite-ERP_Application"> (show)</a> <!-- show-methods passed suite-ERP_Application -->
+                    </span>
+                    <div class="method-list-content passed suite-ERP_Application">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.regression.Testingannotations1" hash-for-method="getReports">getReports</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.parallel.Parallel" hash-for-method="method1">method1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.parallel.Parallel" hash-for-method="method2">method2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.sanity.Sanity1" hash-for-method="test1">test1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-ERP_Application" title="com.suites.sanity.Sanity2" hash-for-method="test2">test2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-ERP_Application -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-ERP_Application" class="panel ERP_Application">
+          <div class="suite-ERP_Application-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.suites.regression.Testngannotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Logintoapplication">
+                  </a> <!-- Logintoapplication -->
+                  <span class="method-name">Logintoapplication</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.suites.regression.Testngannotations.Logintoapplication(Testngannotations.java:49)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ERP_Application-class-failed -->
+          <div class="suite-ERP_Application-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.suites.regression.Testngannotations</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="adduser">
+                  </a> <!-- adduser -->
+                  <span class="method-name">adduser</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Testngannotations.adduser()[pri:2, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="listuser">
+                  </a> <!-- listuser -->
+                  <span class="method-name">listuser</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Testngannotations.listuser()[pri:3, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logout">
+                  </a> <!-- logout -->
+                  <span class="method-name">logout</span>
+                  <div class="stack-trace">java.lang.Throwable: Method Testngannotations.logout()[pri:4, instance:com.suites.regression.Testngannotations@a3ffec] depends on not successfully finished methods
+... Removed 18 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ERP_Application-class-skipped -->
+          <div class="suite-ERP_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.suites.sanity.Sanity2</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test2">
+                  </a> <!-- test2 -->
+                  <span class="method-name">test2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ERP_Application-class-passed -->
+          <div class="suite-ERP_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.suites.sanity.Sanity1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test1">
+                  </a> <!-- test1 -->
+                  <span class="method-name">test1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ERP_Application-class-passed -->
+          <div class="suite-ERP_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.suites.parallel.Parallel</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="method1">
+                  </a> <!-- method1 -->
+                  <span class="method-name">method1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="method2">
+                  </a> <!-- method2 -->
+                  <span class="method-name">method2</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ERP_Application-class-passed -->
+          <div class="suite-ERP_Application-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.suites.regression.Testingannotations1</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getReports">
+                  </a> <!-- getReports -->
+                  <span class="method-name">getReports</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-ERP_Application-class-passed -->
+        </div> <!-- panel ERP_Application -->
+        <div panel-name="test-xml-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Sony\workspace\TestNg\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;ERP Application&quot;&gt;
+  &lt;test name=&quot;Regression suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.suites.regression.Testngannotations&quot;/&gt;
+      &lt;class name=&quot;com.suites.regression.Testingannotations1&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression suite --&gt;
+  &lt;test name=&quot;Sanity Suite&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.suites.sanity.Sanity1&quot;/&gt;
+      &lt;class name=&quot;com.suites.sanity.Sanity2&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Sanity Suite --&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Parallel Suite&quot; parallel=&quot;methods&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.suites.parallel.Parallel&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Parallel Suite --&gt;
+&lt;/suite&gt; &lt;!-- ERP Application --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for ERP Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression suite (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Sanity Suite (2 classes)</span>
+              </li>
+              <li>
+                <span class="test-name">Parallel Suite (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for ERP Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for ERP Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_ERP_Application');
+function tableData_ERP_Application() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(9);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getReports')
+data.setCell(0, 2, 'com.suites.regression.Testingannotations1')
+data.setCell(0, 3, 33);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'method2')
+data.setCell(1, 2, 'com.suites.parallel.Parallel')
+data.setCell(1, 3, 12);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Logintoapplication')
+data.setCell(2, 2, 'com.suites.regression.Testngannotations')
+data.setCell(2, 3, 6);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'method1')
+data.setCell(3, 2, 'com.suites.parallel.Parallel')
+data.setCell(3, 3, 3);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test2')
+data.setCell(4, 2, 'com.suites.sanity.Sanity2')
+data.setCell(4, 3, 2);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test1')
+data.setCell(5, 2, 'com.suites.sanity.Sanity1')
+data.setCell(5, 3, 2);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'adduser')
+data.setCell(6, 2, 'com.suites.regression.Testngannotations')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'listuser')
+data.setCell(7, 2, 'com.suites.regression.Testngannotations')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'logout')
+data.setCell(8, 2, 'com.suites.regression.Testngannotations')
+data.setCell(8, 3, 0);
+window.suiteTableData['ERP_Application']= { tableData: data, tableDiv: 'times-div-ERP_Application'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 58 ms</span>
+              <div id="times-div-ERP_Application">
+              </div> <!-- times-div-ERP_Application -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for ERP Application</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-ERP_Application" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.suites.regression.Testingannotations1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">getReports</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.suites.regression.Testngannotations</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">Launchapplication</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Logintoapplication</span>
+                <span class="method-start">40 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">cleanup</span>
+                <span class="method-start">53 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-class after">
+                <span class="method-name">closeapplication</span>
+                <span class="method-start">64 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.suites.sanity.Sanity1</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test1</span>
+                <span class="method-start">154 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.suites.sanity.Sanity2</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">test2</span>
+                <span class="method-start">160 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.suites.parallel.Parallel</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">method1</span>
+                <span class="method-start">196 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">method2</span>
+                <span class="method-start">197 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
