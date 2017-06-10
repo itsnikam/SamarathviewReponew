@@ -1,0 +1,5 @@
+dynamic xpaths 
+
+//input[starts_with(id,'ukl')]
+//input[ends_with(id,'24141441')]
+//input[contains(id,'2414')]

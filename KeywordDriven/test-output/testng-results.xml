@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="24763" started-at="2017-05-20T05:50:54Z" finished-at="2017-05-20T05:51:19Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="24763" started-at="2017-05-20T05:50:54Z" finished-at="2017-05-20T05:51:19Z">
+      <class name="com.selenium.radio.Dropdown">
+        <test-method status="PASS" signature="dropdown()[pri:0, instance:com.selenium.radio.Dropdown@1fa3a9d]" name="dropdown" duration-ms="24696" started-at="2017-05-20T11:20:54Z" finished-at="2017-05-20T11:21:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropdown -->
+      </class> <!-- com.selenium.radio.Dropdown -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
