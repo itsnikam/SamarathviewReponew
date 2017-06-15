@@ -7,16 +7,23 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.testng.Assert;
+import static com.selenium.Executionengine.Driverscript.log;
+
 
 import com.selenium.config.Constant;
+import com.selenium.config.CustomException;
 
 public class CommonUtility {
 
+	
 	public static WebDriver dr;
 	public static WebElement element;
-	public static WebElement getObject(String key,String value)
+	CustomException c = new CustomException();
+	
+	public static WebElement getObject(String key,String value) throws CustomException
 	{
-		
+		try{
 		if(key.endsWith("xpath")){
 			element = dr.findElement(By.xpath(value));
 		}else if(key.endsWith("linktext"))
@@ -28,6 +35,17 @@ public class CommonUtility {
 		}else if(key.endsWith("classname"))
 		{
 			element = dr.findElement(By.className(value));
+		}
+		}catch(Exception e )
+		{
+			log.debug("Element not found"+key);
+			log.debug("Unable to Locate Element with Xpath as "+value);
+			dr.quit();
+			Assert.fail("Test Case Failed As Element not present");
+			//throw new CustomException().ElementNotFoundException("Element not found");;
+			//Write down the code to take screen shot
+			//takeScreenshot();
+			
 		}
 		return element;
 	}
@@ -59,6 +77,11 @@ public class CommonUtility {
 	{
 		
 		dr.quit();
+	}
+	public static String getTitle()
+	{
+		
+		return dr.getTitle();
 	}
 	
 }
