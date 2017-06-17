@@ -1,0 +1,29 @@
+Sample Interview Questions
+1.Diff between Selenium RC and Webdriver
+2.Explain the architecture of Selenium Webdriver
+(http://www.seleniumwebdriver.in/2015/10/selenium-web-driver-architecture.html)
+3.How you can reduce the test execution time using selenium grid 
+4.diff between close and quit command
+4.how to work with pop ups using selenium webdriver
+5.How to handle iframe
+6.how to handle alerts
+7.use of Action class in selenium 
+8.Static Vs Dynamic waits 
+9.use of Fluent wait with example 
+10.use of DesiredCapabilities in selenium 
+11.How to do cross browser testing using selenium webdriver (USe Browser stack or sauce lab)
+12.What is testng and annotations in testng and explain the order of Testng annotations
+13.How to do parametrization in testng
+14.How to execute test cases in parallel in testng
+15.Write down the code to read excel file using poi
+16.how to use logger in selenium webdriver
+17.How to genrate Xsslt reports OR ReportNG
+18.Expain your framework from scratch and what are the advantages and disadvantages of your framework 
+19.how to integrate your framework with jenkins 
+20.Git basics commands
+
+
+
+
+
+
