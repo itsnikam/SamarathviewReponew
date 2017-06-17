@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="58045" started-at="2017-06-17T05:02:17Z" finished-at="2017-06-17T05:03:15Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="58045" started-at="2017-06-17T05:02:17Z" finished-at="2017-06-17T05:03:15Z">
+      <class name="com.selelenium.tests.LoginTest">
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.selelenium.tests.LoginTest@19d1a19]" name="doLogin" duration-ms="22972" started-at="2017-06-17T10:32:19Z" data-provider="getData" finished-at="2017-06-17T10:32:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[nitin.nikam@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.selelenium.tests.LoginTest@19d1a19]" name="doLogin" duration-ms="17352" started-at="2017-06-17T10:32:42Z" data-provider="getData" finished-at="2017-06-17T10:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[john.paul@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+        <test-method status="PASS" signature="doLogin(java.lang.String, java.lang.String)[pri:0, instance:com.selelenium.tests.LoginTest@19d1a19]" name="doLogin" duration-ms="15524" started-at="2017-06-17T10:32:59Z" data-provider="getData" finished-at="2017-06-17T10:33:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mark.krick@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Test@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLogin -->
+      </class> <!-- com.selelenium.tests.LoginTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
