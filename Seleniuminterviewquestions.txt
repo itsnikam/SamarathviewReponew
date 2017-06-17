@@ -19,8 +19,22 @@ Sample Interview Questions
 16.how to use logger in selenium webdriver
 17.How to genrate Xsslt reports OR ReportNG
 18.Expain your framework from scratch and what are the advantages and disadvantages of your framework 
-19.how to integrate your framework with jenkins 
+19.how to integrate your framework with jenkins
 20.Git basics commands
+
+******************Core Java***************** 
+21.Exception handling
+22.Reflection API in java
+23.Collections in java (List ,ArrayList,Set,Hashmap)
+24.Inheritance
+25.Classes and  Objects
+26.Abstract class and Interfaces 
+27.What is Static 
+28.Public ,private ,Protected and default
+29.What is Singleton class in java
+30.Constructor in java
+
+
 
 
 
