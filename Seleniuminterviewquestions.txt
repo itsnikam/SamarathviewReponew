@@ -21,6 +21,8 @@ Sample Interview Questions
 18.Expain your framework from scratch and what are the advantages and disadvantages of your framework 
 19.how to integrate your framework with jenkins
 20.Git basics commands
+21.What are assertions in Testng
+2.Diff between Verify and Assert in Testng
 
 ******************Core Java***************** 
 21.Exception handling
